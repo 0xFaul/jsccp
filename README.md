@@ -8,7 +8,7 @@ Simple circular color picker in JavaScript with scroll and touchscreen support.
 ![Simple](./screenshots/simple.gif) | ![Complex](./screenshots/complex.gif)
 
 ## Requirements
-* ** None **
+* **None**
 
 ## Usage
 1. simply add
