@@ -1,0 +1,127 @@
+.colorwheel_c {
+    font-size: 10px;
+    width: 14.7em;
+    height: 14.7em;
+    left: 3em;
+    top: 2.625em;
+    border-radius: 10em;
+    background: url("bg.svg");
+    -webkit-mask: radial-gradient(transparent 4.5em, red 4.55em);
+    mask: radial-gradient(transparent 4.5em, red 4.55em);
+    position: absolute;
+}
+
+.colorwheel {
+    //display: none;
+    font-size: 10px;
+    width: 19.99999999em;
+    height: 19.99999999em;
+    border-radius: 10em;
+    background: url("bg.svg") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    -webkit-mask: radial-gradient(transparent 6em, red 6.05em);
+    mask: radial-gradient(transparent 6em, red 6.05em);
+    position: absolute;
+}
+
+.complex {
+    width: 24em;
+    height: 20em;
+}
+
+.sat {
+    left: -0.5em;
+    top: 0em;
+    width: 13.1em;
+    height: 26.2em;
+    position: absolute;
+    -webkit-mask-image: url(./slider-mask1.svg);
+    -webkit-mask-size: cover;
+    mask-image: url(./slider-mask1.svg);
+    mask-size: cover;
+}
+
+.lum {
+    left: 14.39em;
+    top: 0em;
+    width: 13.1em;
+    height: 26.2em;
+    -webkit-mask-image: url(./slider-mask2.svg);
+    -webkit-mask-size: cover;
+    mask-image: url(./slider-mask2.svg);
+    mask-size: cover;
+    position: absolute;
+    background: #000;
+    //-webkit-transform: rotate(180deg);
+    //transform: rotate(180deg);
+
+}
+
+
+.rot {
+    width: 20em;
+    height: 20em;
+    position: absolute;
+    border-radius: 10em;
+}
+
+.dot {
+    height: 2em;
+    width: 2em;
+    background: #ffffff;
+    border-radius: 1em;
+    margin: 1.05em;
+    box-shadow: 0 0 1px 1px #3c3c3c;
+}
+
+.colorpicker {
+    position: relative;
+    margin: 5em;
+}
+
+.sat-rot {
+    transform: rotate(195deg);
+    position: relative;
+    width: 24.4em;
+    height: 24.4em;
+    top: 0.9em;
+    left: 2em;
+    border-radius: 12.2em;
+}
+
+.sat-dot {
+    position: relative;
+    top: -0.3em;
+    left: 0em;
+    background: #fff;
+    box-shadow: 0 0 1px 1px #3c3c3c;
+    height: 2em;
+    width: 2em;
+    border-radius: 1em;
+}
+
+.lum-rot {
+    transform: rotate(15deg);
+    position: relative;
+    width: 24.4em;
+    height: 24.4em;
+    
+    top: 0.9em;
+    left: -13em;
+    border-radius: 12.2em;
+}
+
+.lum-dot {
+    position: relative;
+    top: -0.3em;
+    left: 0;
+    background: #fff;
+    box-shadow: 0 0 1px 1px #3c3c3c;
+    height: 2em;
+    width: 2em;
+
+    border-radius: 1em;
+}
